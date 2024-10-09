@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @lArtiquel
 - 👀 I’m interested in fullstack web development.
 - 💞️ I’m looking to collaborate on interesting projects using best modern technologies.
-- 📫 Reach me by email - tsvirkoartem@gmail.com or contact via https://artware.netlify.app/contact
+- 📫 Reach me by email - tsvirkoartem@gmail.com or contact via https://artware.me/contact
 
 <!---
 lArtiquel/lArtiquel is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -11,10 +11,7 @@ Based in Warsaw, working remotely on B2B.
 - Public APIs and the plumbing around them: onboarding flows over email and SMS, timezone-aware digest emails, one error contract for internal and external clients.
 - Ship to Kubernetes with Terraform and own the pipeline as much as the code.
 - Review, mentor, and take the on-call that comes with the above.
-
-## AI
-
-I do most of my day-to-day work through Claude Code and have built up a set of skills around it over the past year: how we review, how a PR gets described, how a Jira ticket is written, how to seed a test database on an ephemeral environment. They talk to Jira, Datadog, Sentry, GitHub and Slack over MCP. For incident investigations I run one agent to dig and a second one that only sees the report and has to check every citation. For slow-moving PRs there is a loop that picks up review-bot comments overnight and fixes them. This summer I went through how our review bot actually reads the repo's guidance files and rewrote mine based on what I found. Outside work I built a Telegram mini-app that turns photos into stylised images and short clips with fal.ai models.
+- Work through Claude Code day to day, with my own skills for review, PRs, Jira and test-data seeding, wired to Jira, Datadog, Sentry, GitHub and Slack over MCP. Two-agent research with a blind reviewer for incidents; an overnight loop that clears review-bot comments.
 
 ## Stack
 

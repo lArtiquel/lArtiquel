@@ -13,7 +13,7 @@ Based in Warsaw, working remotely on B2B.
 
 ## Now
 
-Backend at OpenSpace, on the crew-collaboration layer for construction-site software. Kotlin on Java 21, Spring Boot, PostgreSQL, AWS. Crew onboarding across email and phone, a timezone-aware daily digest pipeline, and the error contract shared by the internal and public APIs.
+Backend for a construction-tech product: the crew-collaboration layer around site field notes. Kotlin on Java 21, Spring Boot, PostgreSQL, AWS. Crew onboarding across email and phone, a timezone-aware daily digest pipeline, and the error contract shared by the internal and public APIs.
 
 ## AI
 

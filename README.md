@@ -13,11 +13,11 @@ Based in Warsaw, working remotely on B2B.
 
 ## Now
 
-Backend for a construction-tech product: the crew-collaboration layer around site field notes. Kotlin on Java 21, Spring Boot, PostgreSQL, AWS. Crew onboarding across email and phone, a timezone-aware daily digest pipeline, and the error contract shared by the internal and public APIs.
+I work on the backend of a construction-tech product, on the part where site crews get invited, respond to field notes and get their daily digest. Kotlin on Java 21, Spring Boot, PostgreSQL, AWS. This year that meant the invite flow over email and SMS, a summary email that respects each site's timezone, and one error contract for both the internal and the public API.
 
 ## AI
 
-Agents are part of my toolchain, not a demo. I maintain two dozen Claude Code skills that encode my team's shipping discipline (review standards, PR templates, Jira, seeding ephemeral databases), wired to Jira, Datadog, Sentry, GitHub and Slack over MCP. A researcher-plus-blind-reviewer loop for incident investigations where every claim needs a citation. An overnight loop that answers the review bot and keeps CI green until the PR is ready. I audited how our review bot consumes the repo's guidance files and rewrote mine accordingly. On the side, a Telegram mini-app that generates images and video through fal.ai, paid in Stars.
+I do most of my day-to-day work through Claude Code and have built up a set of skills around it over the past year: how we review, how a PR gets described, how a Jira ticket is written, how to seed a test database on an ephemeral environment. They talk to Jira, Datadog, Sentry, GitHub and Slack over MCP. For incident investigations I run one agent to dig and a second one that only sees the report and has to check every citation. For slow-moving PRs there is a loop that picks up review-bot comments overnight and fixes them. This summer I went through how our review bot actually reads the repo's guidance files and rewrote mine based on what I found. Outside work I built a Telegram mini-app that turns photos into stylised images and short clips with fal.ai models.
 
 ## Stack
 

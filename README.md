@@ -1,6 +1,6 @@
 # Artyom Tsvirko
 
-Senior backend engineer on the JVM. Java and Kotlin since 2017, mostly in domains where a wrong write is expensive: banking (BaaS lending), retail data pipelines, IoT, healthcare, e-commerce.
+Senior backend engineer on the JVM. Java and Kotlin since 2017, mostly in domains where a wrong write is expensive: banking (BaaS lending), retail data pipelines, IoT, construction tech, healthcare, e-commerce.
 
 Based in Warsaw, working remotely on B2B.
 
@@ -8,12 +8,9 @@ Based in Warsaw, working remotely on B2B.
 
 - Design and run microservices on Spring Boot / WebFlux and Micronaut, with Kafka, PostgreSQL and Elasticsearch underneath.
 - Event-driven and CQRS systems, including the migrations nobody wants (AWS to GCP, Teradata to BigQuery).
+- Public APIs and the plumbing around them: onboarding flows over email and SMS, timezone-aware digest emails, one error contract for internal and external clients.
 - Ship to Kubernetes with Terraform and own the pipeline as much as the code.
 - Review, mentor, and take the on-call that comes with the above.
-
-## Now
-
-I work on the backend of a construction-tech product, on the part where site crews get invited, respond to field notes and get their daily digest. Kotlin on Java 21, Spring Boot, PostgreSQL, AWS. This year that meant the invite flow over email and SMS, a summary email that respects each site's timezone, and one error contract for both the internal and the public API.
 
 ## AI
 
